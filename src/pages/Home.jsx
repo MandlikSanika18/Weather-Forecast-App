@@ -1,8 +1,8 @@
 // Home.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import WeatherCard from "./WeatherCard";
-import ForecastCard from "./ForecastCard";
+import WeatherCard from "../Components/WeatherCard";
+import ForecastCard from "../Components/ForecastCard";
 
 function Home() {
   const [lat, setLat] = useState(null);
